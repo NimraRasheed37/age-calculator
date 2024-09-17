@@ -11,7 +11,7 @@ body{
 .heading{
     text-align: center;
     width: 100%;
-    height: 14vh;
+    height: 10vh;
     background-color: #9395d3;
     padding: 8px ;
 }
@@ -151,7 +151,9 @@ h4{
 }
 
 @media (min-width: 600px), (max-width: 1200px){
-
+.heading{
+    height: 14vh;
+}    
     .und-head{
         height: 15vh;
     }
