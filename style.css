@@ -151,7 +151,7 @@ h4{
 }
 
 @media (max-width: 1200px){
-header{
+.heading{
     height: 20vh;
 }
     .und-head{
