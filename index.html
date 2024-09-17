@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Age Calculator</h1>
+    <div class="und-head">
+        <p id="quote">"Age is merely the number of years the world has been enjoying you. Calculate and celebrate!"</p>
+    </div>
+    <div class="main-div">
+        <div class="calculator">
+            <form id="age-form">
+                <label for="dob" id="note">Enter Your Date of Birth</label>
+                <br>
+                <input type="date" id="dob">
+                <br>
+                <button onclick="calculateAge()" id="get-age">Calculate</button>
+            </form>
+        </div>
+        <div id="age-result">
+            <h4>Result:</h4>
+            <p id="your-age"></p>
+        </div>
+        <div id="refresh">
+            <h5>Want to check another date?</h5>
+            <a href="/index.html">
+            <button id="restart">Refresh</button></a>
+        </div>
+
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

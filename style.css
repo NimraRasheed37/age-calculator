@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #151120;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #9395d3;
+    padding: 8px ;
+}
+.und-head{
+    width: 100%;
+    height: 6vh;
+    background-color: #494ca0;
+}
+#quote{
+    text-align: center;
+    padding: 6px;
+}
+.main-div{ 
+    margin: 3% 25%;
+    padding: 2% 5%;
+    width: 50%;
+    height: 70vh;
+    background-color: #494ca0;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px #f7f7fa;
+}
+
+#age-form{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto;
+}
+#dob{
+    padding: 10px 20px;
+    margin-top: 4%;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#dob:hover{
+    box-shadow: 1px 1px 16px #000807;
+}
+
+#get-age{
+    margin-top: 4%;
+    font-size: 20px;
+    padding: 8px 10px;
+    border: solid 2px transparent;
+    border-radius: 10px;
+    background-color: #000807;
+    color: white;
+    cursor: pointer;
+}
+#get-age:hover{
+   background-color: #9395d3;
+   color: #000807;
+   font-weight: bold;
+   box-shadow: 1px 1px 16px #000807;
+
+}
+#age-result{
+    width: 90%;
+    height: 16vh;
+    color:#000807;
+    background-color: #b6b7e7;
+    font-size: 18px;
+    margin: 0 auto;
+    border: solid 2px #494ca0;
+    border-radius: 20px;
+}
+h4{
+    color: #000807;
+    text-decoration: underline;
+    margin-left: 3%;
+    margin-top: 1%;
+    padding: 4px 10px;
+}
+#your-age{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+    font-size: 16px;
+}
+#refresh{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    width: 80%;
+    border-radius: 8px;
+}
+#restart{
+    padding: 8px 16px;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #494ca0;
+    color: white;
+    cursor: pointer;
+}
+#restart:hover{
+    background-color: #000807;
+    border: #9395d3;
+    box-shadow: 1px 1px 20px #9395d3;
+}
+
+@media(max-width: 600px){
+    .heading{
+        height: 13vh;
+    }
+    #main-div{
+        height: 100vh;
+    }
+    #quote{
+        font-size: 12px;
+    }
+    #note{
+        font-size: 16px;
+    }
+    #dob{
+        font-size: 12px;
+    }
+    #get-age{
+        font-size: 14px;
+    }
+    #age-result{
+        font-size: 12px;
+    }
+    #your-age{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+    .und-head{
+        height: 10vh;
+    }
+    .main-div{
+        width: 70%;
+        margin: auto;
+        margin-top: 2%;
+        height: auto;
+    }
+    #age-result{
+        width: 100%;
+    }
+    #your-age{
+        font-size: 13px;
+    }
+    h5{
+        font-size: 13px;
+        margin-bottom: 3%;
+    }
+}
